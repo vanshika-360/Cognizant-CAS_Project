@@ -1,0 +1,44 @@
+Cognizant CAS Project 
+
+Team Members
+1. Bhanu 
+2. Mayuri Kohat
+3. Samjad 
+4. Vanshika 
+5. Veerabhadra
+
+Objectives: To Get the user details and validating it 
+To validate welcome message and getting the names of the languages.
+To get the details from GSD page, for default and randomly selected two countries.
+
+Technology Automation Used:
+1. Selenium Webdriver and its concept
+2. TestNG Framework and its's concept 
+3. Core Java Concepts
+4. Page Object Model(POM) Concepts
+5. Maven POI tools
+6. Extent Report and TestNG Report
+7. Cross Browser Testing Concepts(Chrome and Edge Browsers used)
+8. Screenshots for every test cases
+
+Key Automation Scope 
+1. WindowHandlings 
+2. ScrollDown
+3. WorkingWithExcel(using XSSF package)
+4. ImplicitWait
+5. Dropdowns
+6. Capture images wherever required.
+
+Automation flow:
+1. Navigate to Be. Cognizant Website and capture the user information.
+2. Click One Cognizant application.
+3. Search GSD in One Cognizant and click on Live Support - GSD application from search results.
+4. Validate the welcome message of GSD Application.
+5. Validate the default country and language.
+6. Get all the drop-down details from Language drop down.
+7. Get all the details present in the GSD page with tooltips and by changing Location from drop down (for three random Locations).
+
+
+Description 
+The Goal of this project is to automate the process of Openining GSD(Global Service Desk) from One Cognizant portal using Selenium with Java framework. Additionally, it involves picking up the User details when we first open the Be Cognizant url. We should search for GSD from one cognizant portal and click on the GSD link that appears, from there print the Default Language and Country selected. also,print all the languages present in the Dropdown. Verify the Welcome Message text in GSD page. for Default country selected get all the GSD details on the console. coming to the next step, select two countries randomly from countries dropdown and print all the GSD details of the two countries.
+
